@@ -1,0 +1,90 @@
+{
+  "objectInfo" : {
+    "id" : "9jmEWmo45oLdgrnlClULcF",
+    "name" : "Expr_Filter_With_Udf",
+    "type" : "MTT",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010SR00Z0000000000WV"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "contains mapping with maplet having udf\r\nmaplet contains\r\n- expression with udf\r\n- filter with udf",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "objectRefs" : [ {
+    "id" : "jNxmlKzpIaeljXmxJUP0wb",
+    "name" : "Expr_Filter_With_Udf",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010SR0170000000000IF"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapping consumes maplet\nmaplet contains udf in combination with built in fn, filter with udf",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/VCS"
+  }, {
+    "id" : "2DM23t51QObeEggG2OsgA0",
+    "name" : "ff_incdiprod03_source",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010SR00B000000000027"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  }, {
+    "id" : "3bR0SOhMPcegEFXCU4HX4f",
+    "name" : "incdiprod03.informatica.com",
+    "type" : "AgentGroup",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010SR02500000000000F"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}

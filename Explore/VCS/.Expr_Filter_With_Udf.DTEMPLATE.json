@@ -1,0 +1,87 @@
+{
+  "objectInfo" : {
+    "id" : "jNxmlKzpIaeljXmxJUP0wb",
+    "name" : "Expr_Filter_With_Udf",
+    "type" : "DTEMPLATE",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010SR0170000000000IF"
+      },
+      "contextAttributes" : [ {
+        "name" : "id",
+        "value" : "@1"
+      } ],
+      "additionalInfo" : {
+        "description" : "This mapping consumes maplet\nmaplet contains udf in combination with built in fn, filter with udf",
+        "contentType" : null,
+        "documentState" : "VALID"
+      }
+    }
+  },
+  "dataFileExtension" : "zip",
+  "objectRefs" : [ {
+    "id" : "6m17cqs6QSugjJH7X63Est",
+    "name" : "recursive3",
+    "type" : "UDF",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010SR04100000000000M"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "calls recursive 2 which in turn calls recursive 1\nreturns => arg1 + 2 (i.e. arg1+1 +1  )",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/R33_UserDefinedFunctions"
+  }, {
+    "id" : "hNpQw1SXZISdTSwgyHNXuZ",
+    "name" : "Expr_Filter_With_Udf",
+    "type" : "DMAPPLET",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010SR04000000000000V"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : "contains expression with udf and built in combination\n contains advanced filter condition with udf",
+        "contentType" : "JSON",
+        "documentState" : "VALID"
+      }
+    },
+    "path" : "/Explore/R33_UserDefinedFunctions"
+  }, {
+    "id" : "2DM23t51QObeEggG2OsgA0",
+    "name" : "ff_incdiprod03_source",
+    "type" : "Connection",
+    "metadata" : {
+      "modelVersion" : {
+        "major" : 0,
+        "minor" : 0
+      },
+      "repoInfo" : {
+        "repoHandle" : "010SR00B000000000027"
+      },
+      "contextAttributes" : null,
+      "additionalInfo" : {
+        "description" : null,
+        "contentType" : "JSON",
+        "documentState" : "COMPLETE"
+      }
+    },
+    "path" : "/SYS"
+  } ]
+}
